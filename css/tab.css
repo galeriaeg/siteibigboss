@@ -254,14 +254,13 @@
 	}*/
 		.tit-big-white{		font:bold 25px 'Montserrat', sans-serif;		color:#fff;	}		
 	.titulo-h2-dark{
-		font:normal 2em 'Montserrat', sans-serif;
+		font:600 2em 'Montserrat', sans-serif;
 		color:#374351;
 		display:block;
-		font-weight:bold;
 	}
 	
 	.tit-clear{
-		font:normal 1.4em 'Montserrat', sans-serif;
+		font:600 1.4em 'Montserrat', sans-serif;
 		color:#FFF;		width:100%;		float:left;		margin-bottom:20px;
 	}
 	
