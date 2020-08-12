@@ -1,0 +1,36 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<script>
+	$(window).load(function(){
+		var $doc = $('html, body');
+		$('.scrollSuave').click(function() {
+			$doc.animate({
+				scrollTop: $( $.attr(this, 'href') ).offset().top
+			}, 700);
+			return false;
+		});
+		
+	});
+</script>		
+<script>
+	window.onscroll = ancora;
+	function ancora(){
+		var altura = window.pageYOffset;
+		if(altura>700)
+		document.getElementById('seta').style.display = 'block';
+		else
+		document.getElementById('seta').style.display = 'none';
+	}
+</script>
+
+
+
+<div class="box-btns-float-mob">
+	<img src="imgs/btn-contato.png" alt="chat" id="box-chat" onclick="chat(1);" class="btns-float" />
+	<img src="imgs/btn-wapp.png" onclick="window.open('https://api.whatsapp.com/send?phone=558590011223344','_blank');" class="btns-float" />
+</div>
+
+
+
+<a href="#topoPage" title="Subir" class='scrollSuave'>
+	<img src="imgs/icone-up.png"  class="btup" alt="Subir"  />
+</a>
