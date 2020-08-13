@@ -185,11 +185,12 @@
 		.texto-white{		font:normal 0.9em 'Open Sans', sans-serif;		color:#FFF;		line-height:22px;		letter-spacing:1px;		width:100%;		margin-bottom:30px;		float:left;	}
 	
 	.titTopic{
-		font:normal 0.9em 'Montserrat', sans-serif;
-		color:#ff9100;
-		border-left:2px solid #ff9100;
+		font:500 0.9em 'Montserrat', sans-serif;
+		color:#008598;
+		border-left:2px solid #008598;
 		padding-left:10px;
 		margin-top:40px;
+		letter-spacing:2px;
 	}
 	
 	.texto-h4{		font:normal 1em 'Open Sans', sans-serif;
@@ -368,11 +369,7 @@
 				.botonWhite{		font:bold 1em 'Montserrat', sans-serif;		background:#fff;		border-radius: 8px;		padding:15px 4%;		border:0;		cursor:pointer;		color:#9c3483;		transition:all 0.2s ease;		opacity:1;		margin-left:20px;		box-shadow: 0px 2px 5px #4c3866;	}	button.botonWhite:hover{		background:#008598;		color:#FFF;	}
 	/***** FORMULARIO  *****/
 	
-	
-	
-	
-	
-	
+
 	
 	/***** IMAGENS *****/
 	.logo{
@@ -453,67 +450,60 @@
 /***** IMAGENS *****/
 
 
-
-
-
-
 /***** BOTÕES E  ICONES *****/
-.icon{
-	width:32%;
-	margin-bottom:10px;	display:inline;
-}
+	.icon{
+		width:32%;
+		margin-bottom:10px;		display:inline;
+	}
 
-.icon-mensagem{
-	color:#94ced4;
-	font-size:2em;
-	float:right;
-	cursor:pointer;
-	margin-left:20px;
-}
-i.icon-mensagem:hover{
-	color:#1f858f;
-}
+	.icon-mensagem{
+		color:#94ced4;
+		font-size:2em;
+		float:right;
+		cursor:pointer;
+		margin-left:20px;
+	}
+	i.icon-mensagem:hover{
+		color:#1f858f;
+	}
+
+	.icon-social{
+		font-size:2em;
+		background:#fff;
+		padding:0 10px;
+		margin:0;
+		cursor:pointer;
+	}	
+	i.icon-social:hover{
+		color:#394252;
+	}
 
+	.btnFecharMalha{
+		display:block;
+		position:fixed;
+		top:10px;
+		right:10px;
+		cursor:pointer;
+		z-index:185;
+	}
 
-.icon-social{
-	font-size:2em;
-	background:#fff;
-	padding:0 10px;
-	margin:0;
-	cursor:pointer;
-}	
-i.icon-social:hover{
-	color:#394252;
-}
+	.btn-bars{
+		display:none !important;
+	}
 
-.btnFecharMalha{
-	display:block;
-	position:fixed;
-	top:10px;
-	right:10px;
-	cursor:pointer;
-	z-index:185;
-}
-
-.btn-bars{
-	display:none !important;
-}
-
-
-
-.btns-float{
-width:70px;
-clear:right;
-display:block;
-cursor:pointer;
-margin:2px 0;
-float:right;
-}
-img.btns-float:hover{
-width:70px;
-float:right;
-margin:2px 2px;
-}
+	.btns-float{
+		width:70px;
+		clear:right;
+		display:block;
+		cursor:pointer;
+		margin:2px 0;
+		float:right;
+	}
+	img.btns-float:hover{
+		width:70px;
+		float:right;
+		margin:2px 2px;
+	}
 
 /***** BOTÕES E  ICONES *****/
 
@@ -525,7 +515,6 @@ margin:2px 2px;
 
 
 /***** BOX *****/
-
 	.box-menu{
 		position:relative;
 		width:60%;
@@ -544,7 +533,9 @@ margin:2px 2px;
 		text-align:center;
 	}
 
-	.blocoBox{		float:left;		width:80%;		text-align:center;		margin:0 10% 30px 10%;	}			.box-empresa{		float:right;		width:60%;		background:#c1207e;		margin:0 8px;		border-radius:6px;		padding-bottom:35px;	}	div.box-empresa:hover{		box-shadow: 0px 0px 10px #999;	}	.box-usuario{		float:left;		width:60%;		background:#ff9100;		margin:0 8px;		border-radius:6px;		padding-bottom:35px;	}	div.box-usuario:hover{		box-shadow: 0px 0px 15px #999;	}	
+	.blocoBox{		float:left;		width:80%;		text-align:center;		margin:0 10% 30px 10%;	}			.box-empresa{		float:right;		width:60%;		background:#c1207e;		margin:0 8px;		border-radius:6px;		padding-bottom:35px;	}	div.box-empresa:hover{		box-shadow: 0px 0px 10px #999;	}
+	
+		.box-usuario{		float:left;		width:60%;		background:#ff9100;		margin:0 8px;		border-radius:6px;		padding-bottom:35px;	}	div.box-usuario:hover{		box-shadow: 0px 0px 15px #999;	}	
 	.fio-full{
 		width:100% !important;
 		color:#999;
@@ -556,44 +547,44 @@ margin:2px 2px;
 	}	.box-lista-parceiros{		border:0px solid red;	}
 	
 	
-.text-divider-claro{
-	background-color:#FFF;
-	display:inline-block;
-	padding:0 20px;
-}
+	.text-divider-claro{
+		background-color:#FFF;
+		display:inline-block;
+		padding:0 20px;
+	}
 
 
 
-.divider-redes{
-width:100% !important;
-font-family: 'Montserrat', sans-serif;
-letter-spacing: 2px;
-color:#999;
-border-bottom:1px solid #ccc;
-text-align:center;
-height:18px !important;
-float:left;
-margin:50px 0;
-}
+	.divider-redes{
+		width:100% !important;
+		font-family: 'Montserrat', sans-serif;
+		letter-spacing: 2px;
+		color:#999;
+		border-bottom:1px solid #ccc;
+		text-align:center;
+		height:18px !important;
+		float:left;
+		margin:50px 0;
+	}
 
 
-.box-perfil{
-width:63%;
-float:left;
-padding:2% 0 2% 0;
-}
+	.box-perfil{
+		width:63%;
+		float:left;
+		padding:2% 0 2% 0;
+	}
 
-.box-btns-float-desk{
-right:0;
-bottom:70px;
-position:fixed;
-z-index:100;
-border:0px solid red;
-}	
+	.box-btns-float-desk{
+		right:0;
+		bottom:70px;
+		position:fixed;
+		z-index:100;
+		border:0px solid red;
+	}	
 
-.box-btns-float-mob{
-display:none;
-}	
+	.box-btns-float-mob{
+		display:none;
+	}	
 	.box-color{		width:90%;		padding:5%;		background-image:url('../imgs/tarja.jpg');		background-attachment: fixed;		background-position:middle;		border-radius:6px;		margin:60px 0;		text-align:center;	}			.box-cinza{		width:90%;		padding:43px 5%;		background-color:#ECEDEF;		background-image:url('../imgs/bnn-social.jpg');		background-attachment: relative;		background-repeat:no-repeat;		background-size:62%;		background-position:right -85px;		border-radius:6px;		margin:0 0 60px 0;		text-align:left;		color:#555;	}		.traco{		width:70px;		height:4px;		background:#007d92;		margin:0 auto;		margin-bottom:40px;	}	.box-map{		float:left;		width:100%;		height:380px;	}			.box-parceiro{		float:left;		text-align:center;	}		.box-metade{		width:50%;	}
 	
 	
